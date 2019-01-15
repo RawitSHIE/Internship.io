@@ -1,0 +1,1 @@
+[["Google" ,  "A search engine"], ["Facebook", "Social Media Platform"],["Youtube",  "Video Streaming Platform"]]

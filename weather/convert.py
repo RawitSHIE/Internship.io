@@ -1,6 +1,5 @@
 """
-weather file 
-xml -> json
+weather file xml -> json
 ref : github/martinblech/xmltodict
 """
 
@@ -13,5 +12,6 @@ def main():
     jsn = open("weather.json", "w")
     jsn.write(json.dumps(xmltodict.parse(xml, attr_prefix='')['current'], indent=2))
     jsn.close
+    print("weather.json")
 
 main()

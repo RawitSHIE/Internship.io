@@ -1,5 +1,5 @@
 """
-word guessing Internship Exam
+word guessing
 """
 import random
 import json
@@ -11,7 +11,7 @@ def hangman():
     display = []
  
     print("Select Category:")
-    print("Computer Knowledge", "Big Company", "Famous Person", sep="\n",end="\n\n")
+    print("1. Computer Knowledge", "2. Big Company", "3. Famous Person", sep="\n",end="\n\n")
 
     vocab = open("cat{0}.txt".format(int(input())), "r")
     sq = json.loads(vocab.read())
@@ -50,8 +50,14 @@ def hangman():
                         scr += 15
         print("{0}\t score {1}, remaining guess word {2}".format(" ".join(display), scr, guess), end="")
         if not wrong_guess:
+            scr -= 5
             wrong += (" " + chr) * (not(chr in wrong) and not(chr in lowercase))
             print(", wrong guessed:", wrong, sep="")
         else:
             print()
+    
+    if guess > 0 :
+        print("You guessed!!!! \n{0}, Score : {1}".format(wordset[0], scr))
+    else:
+        print("You lose \nThe answer is {0}".format(wordset[0]))
 hangman()

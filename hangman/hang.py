@@ -38,7 +38,7 @@ def hangman():
     while guess > 0 and (display.count("_") != 0):
         checkchr = lambda tmp : tmp if len(tmp) == 1 and tmp.isalpha() else checkchr(input())
         chr = checkchr(input()).lower()
-        if (chr in display or chr in wrong):
+        if (chr in display or chr.upper() in display or chr in wrong):
             print(chr+" had already been guessed")
             continue
         if not (chr in lowercase):

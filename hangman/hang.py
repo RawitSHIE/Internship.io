@@ -61,4 +61,15 @@ def hangman():
         print("You guessed!!!! \n{0}, Score : {1}".format(wordset[0], score))
     else:
         print("You lose \nThe answer is {0}".format(wordset[0]))
-hangman()
+    
+def main():
+    hangman()
+    while True:
+        print("Continue playing? Y= Yes/N = No:", end="")
+        x = input().lower()
+        if x == 'y':
+            hangman()
+        else:
+            break
+    print("Thanks for playing.")
+main()

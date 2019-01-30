@@ -1,1 +1,7 @@
-[["End System", "Part of Edge Network"], ["Random Access memory" ,  "A Volatile Memory"], ["Mainboard", "Main Curcuit of Computer"]]
+[
+["End System", "Part of Edge Network"], 
+["Random Access memory" ,  "A Volatile Memory"],
+["Mainboard", "Main Curcuit of Computer"],
+["Keyboard", "i/o of computer"],
+["Hard drive", "Storage bay"]
+]

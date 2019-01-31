@@ -34,8 +34,13 @@ pip3 list
 # How to excute
 การที่จะ execute file `weather.py` ทำได้ด้วยการ พิมคำสั่ง execute ของ python ด้วย relative path ไปยัง file `weather.xml`
 
+mac os
 ```
 python3 weather.py [path to weather.xml]
+```
+Windows
+```
+py -3 weather.py [path to weather.xml]
 ```
 > ถ้าที่นี้ path ของ weather.xml อยู่ path เดียวกับ weather.py
 

@@ -3,11 +3,15 @@ Word guessing
 """
 import random
 import json
+import sys
 def getword():
     """get word"""
     num = selectcat()
-    sq = json.loads(open("cat{0}.txt".format(num), "r").read())
-    return sq[random.randint(0,4)]
+    try:
+        sq = json.loads(open("cat{0}.txt".format(num), "r").read())
+        return sq[random.randint(0,4)]
+    except FileNotFoundError:
+        sys.exit(("Error : \"cat{0}.txt\" not found.").format(num))
 
 def selectcat():
     """show category"""

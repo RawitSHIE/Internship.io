@@ -3,5 +3,5 @@
     ["Drake", "You used to call me on my cell phone~~~"],
     ["Tom Hanks",  "Mama always said life was like a box of chocolates."],
     ["Elon Musk","Real life iron man"],
-    ["Cherprang","1st place in SENBASTU ELECTION!!!"]
+    ["Cherprang BNK48","1st place in SENBASTU ELECTION!!!"]
 ]

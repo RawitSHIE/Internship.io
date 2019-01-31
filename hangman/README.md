@@ -52,11 +52,12 @@ _ _ _   _ _ _ _ _ _      score 0, remaining guess word 9, wrong guessed: p
 
 เมื่อผู้เล่นเล่นชนะ
 ```
-G o o g l _      score 75, remaining guess word 10
-e
-G o o g l e      score 90, remaining guess word 10
+E l o n   M u s _        score 105, remaining guess word 10
+k
+E l o n   M u s k        score 120, remaining guess word 10
 You guessed!!!!
-Google, Score : 90
+Elon Musk, Score : 120
+Continue playing? Y= Yes/N = No:
 ```
 เมื่อผู้เล่นเล่นแพ้
 ```
@@ -65,6 +66,7 @@ h
 E n _   _ _ _ t e m      score 35, remaining guess word 0, wrong guessed: v c x z w q u k j h
 You lose
 The answer is End System
+Continue playing? Y= Yes/N = No:
 ```
 
 # Contact

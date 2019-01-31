@@ -44,10 +44,11 @@ Select Category:
 ส่วนของการทายคำ
 ให้ทายตัวอักษรทีละตัวอักษรไปเรื่อยๆ จนกว่าจะทายถูกหมดหรือ remaining guess เท่ากับ 0
 ```
-Hint: "Part of Edge Network"
-_ _ _   _ _ _ _ _ _      score 0, remaining guess word 10
-p
-_ _ _   _ _ _ _ _ _      score 0, remaining guess word 9, wrong guessed: p
+Hint: "Real life iron man"
+_ _ _ _   _ _ _ _        score 0/120, remaining guess word 10
+e
+E _ _ _   _ _ _ _        score 15/120, remaining guess word 10
+i
 ```
 
 เมื่อผู้เล่นเล่นชนะ

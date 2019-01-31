@@ -1,6 +1,8 @@
 # Theinternship.io
 
 ## 🧠 Word Guessing Game
+[ 👉 Full Description](https://github.com/RawitSHIE/Internship.io/tree/master/hangman)
+
 เกมทายคำตามหมวดหมู่ที่ทางผู้เล่นเลือกโดยจะมี `hint` ให้กับผู้เล่น
 โดยกฎกติกาเป็นดังนี้
 
@@ -33,6 +35,8 @@ i
 
 ## 🛠 XML to JSON
 
+[ 👉 Full Description](https://github.com/RawitSHIE/Internship.io/tree/master/weather)
+
 การแปลง weather.xml เป็น weather.json ในที่นี้จะใช้ Python Module ที่ชื่อว่า `xmlttodict` ซึ่งต้องทำการลงตัว Module เพิ่มก่อน
 
 > วิธีการลง [xmltodict](https://github.com/RawitSHIE/Internship.io/tree/master/weather#pre-required)
@@ -51,7 +55,8 @@ weather.json is written
 ![](img/json_demo.png)
 
 
-> source [XMLTODICT](https://github.com/martinblech/xmltodict)
+>source [XMLTODICT](https://github.com/martinblech/xmltodict)
+
 
 
 # Contact

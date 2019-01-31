@@ -32,14 +32,28 @@ pip3 list
 > สามารถดูวิธีลงแบบอื่นๆได้ ที่ [How to install xmltodict](https://github.com/martinblech/xmltodict#ok-how-do-i-get-it)
 
 # How to excute
+การที่จะ execute file `weather.py` ทำได้ด้วยการ พิมคำสั่ง execute ของ python ด้วย relative path ไปยัง file `weather.xml`
+
+```
+python3 weather.py [path to weather.xml]
+```
+> ถ้าที่นี้ path ของ weather.xml อยู่ path เดียวกับ weather.py
+
+เมื่อทำการ run คำสั่งดังกล่าวแล้วก็จะมี file ที่ชื่อว่า weather.json สร้างขึ้นมาใน folder ที่ weather.py อยู่
+
+![](../img/json_demo.png)
 
 
 # Contact
+<center>
+
 |<a href=""><img src="https://avatars0.githubusercontent.com/u/31315990?s=460&v=4" width="100px"></a>  |
 | :-: |
 |รวิชญ์ โลหะขจรพันธ์|
 |      Rawitgun@gmail.com      |
 |     0910349301    |
 
+</center>
+
 Python Module<br>
-source [XMLTODICT](https://github.com/martinblech/xmltodict)
+>source [XMLTODICT](https://github.com/martinblech/xmltodict)

@@ -18,7 +18,7 @@ def selectcat():
 def guessformat(chr):
     """gussing format"""
     if chr.isalpha() and len(chr) == 1:
-        return chr
+        return chr.lower()
     print("Input one alphabet character only", end=" : ")
     return guessformat(input())
     
@@ -39,18 +39,19 @@ def hangman():
 
     # checking and cmd display
     print("\nHint: \"{0}\"".format(hint))
-    print("{0}\t score {1}, remaining guess word {2}".format(" ".join(display), score, guess))
+    print("{0}\t score {1}/{2}, remaining guess word {3}".format(" ".join(display), score, full, guess))
     lowercase = word.lower()
 
     # guessing
     while guess > 0 and (display.count("_") != 0):
         chr = guessformat(input())
         if (chr in display or chr.upper() in display or chr in wrong):
-            print(chr+" had already been guessed.")
+            print(chr+" had already been guessed", end=" : ")
             continue
         if not (chr in lowercase):
             guess -= 1
             wrong_yet = True
+            score -= 5
         else :
             for i in range(len(display)):
                 if chr == lowercase[i]:
@@ -58,8 +59,8 @@ def hangman():
                     display[i] = word[i]
                     score += 15
         print("{0}\t score {1}/{2}, remaining guess word {3}".format(" ".join(display), score, full, guess), end="")
+        
         if wrong_yet:
-            score -= 5
             wrong += (" " + chr) * (not(chr in wrong) and not(chr in lowercase))
             print(", wrong guessed:", wrong, sep="")
         else:
@@ -68,13 +69,13 @@ def hangman():
     if guess > 0 :
         print("You guessed!!!! \n{0}, Score : {1}/{2}".format(wordset[0], score, full))
     else:
-        print("You lose \nThe answer is {0}, Score : {1},{2}".format(wordset[0], score, full))
+        print("You lose \nThe answer is {0}, Score : {1}/{2}".format(wordset[0], score, full))
     
 def main():
     """ main function """
     hangman()
     while True:
-        print("Continue playing? Y= Yes/N = No:", end=" ")
+        print("Continue playing? Y = Yes/N = No:", end=" ")
         option = input().lower()
         if option == 'y':
             hangman()

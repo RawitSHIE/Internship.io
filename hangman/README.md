@@ -52,21 +52,21 @@ _ _ _   _ _ _ _ _ _      score 0, remaining guess word 9, wrong guessed: p
 
 เมื่อผู้เล่นเล่นชนะ
 ```
-E l o n   M u s _        score 105, remaining guess word 10
-k
-E l o n   M u s k        score 120, remaining guess word 10
+S p a c e _      score 75/90, remaining guess word 10
+X
+S p a c e X      score 90/90, remaining guess word 10
 You guessed!!!!
-Elon Musk, Score : 120
-Continue playing? Y= Yes/N = No:
+SpaceX, Score : 90/90
+Continue playing? Y = Yes/N = No:
 ```
 เมื่อผู้เล่นเล่นแพ้
 ```
-E n _   _ _ _ t e m      score 40, remaining guess word 1, wrong guessed: v c x z w q u k j
-h
-E n _   _ _ _ t e m      score 35, remaining guess word 0, wrong guessed: v c x z w q u k j h
+E l o n   _ _ s _        score 30/120, remaining guess word 1, wrong guessed: r z x i q p y f d
+v
+E l o n   _ _ s _        score 25/120, remaining guess word 0, wrong guessed: r z x i q p y f d v
 You lose
-The answer is End System
-Continue playing? Y= Yes/N = No:
+The answer is Elon Musk, Score : 25/120
+Continue playing? Y = Yes/N = No:
 ```
 
 # Contact

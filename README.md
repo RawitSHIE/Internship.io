@@ -24,11 +24,11 @@ Select Category:
 ```
 ส่วนขอการทายคำ
 ```
-Hint: "Part of Edge Network"
-_ _ _   _ _ _ _ _ _      score 0, remaining guess word 10
-p
-_ _ _   _ _ _ _ _ _      score 0, remaining guess word 9, wrong guessed: p
-a
+Hint: "Real life iron man"
+_ _ _ _   _ _ _ _        score 0/120, remaining guess word 10
+e
+E _ _ _   _ _ _ _        score 15/120, remaining guess word 10
+i
 ```
 
 ## 🛠 XML to JSON
@@ -45,7 +45,9 @@ python3 weather.py [path to weather.xml]
 > ถ้าที่นี้ path ของ weather.xml อยู่ path เดียวกับ weather.py
 
 เมื่อทำการ run คำสั่งดังกล่าวแล้วก็จะมี file ที่ชื่อว่า weather.json สร้างขึ้นมาใน folder ที่ weather.py อยู่
-
+```
+weather.json is written
+```
 ![](img/json_demo.png)
 
 

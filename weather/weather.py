@@ -26,7 +26,7 @@ def main():
     while True:
         # if file exist
         if os.path.isfile('weather.json'):
-            print("weather.json exist, want overwrite? : Yes/no (Y/n)", end="")
+            print("weather.json exist, want overwrite? Yes/no (Y/n) : ", end="")
             option = input()
             if option.lower() == "y":
                 writefile(xml)
@@ -39,6 +39,6 @@ def main():
                 continue
         else:
             writefile(xml)
-            print("weather.json is wrote")
+            print("weather.json is written")
             break
 main()

@@ -40,6 +40,9 @@ python3 weather.py [path to weather.xml]
 > ถ้าที่นี้ path ของ weather.xml อยู่ path เดียวกับ weather.py
 
 เมื่อทำการ run คำสั่งดังกล่าวแล้วก็จะมี file ที่ชื่อว่า weather.json สร้างขึ้นมาใน folder ที่ weather.py อยู่
+```
+weather.json is written
+```
 
 ![](../img/json_demo.png)
 

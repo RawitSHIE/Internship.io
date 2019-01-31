@@ -50,8 +50,8 @@ def hangman():
             continue
         if not (chr in lowercase):
             guess -= 1
-            wrong_yet = True
             score -= 5
+            wrong_yet = True
         else :
             for i in range(len(display)):
                 if chr == lowercase[i]:
@@ -59,7 +59,7 @@ def hangman():
                     display[i] = word[i]
                     score += 15
         print("{0}\t score {1}/{2}, remaining guess word {3}".format(" ".join(display), score, full, guess), end="")
-        
+        # showing wrong guess list
         if wrong_yet:
             wrong += (" " + chr) * (not(chr in wrong) and not(chr in lowercase))
             print(", wrong guessed:", wrong, sep="")
